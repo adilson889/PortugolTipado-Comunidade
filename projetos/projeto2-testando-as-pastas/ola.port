@@ -1,0 +1,41 @@
+inclua math
+
+estrutura Aluno {
+    texto nome
+    inteiro idade
+}
+
+funcao dobro(const inteiro x): inteiro {
+    retorne x * 2
+}
+
+funcao acumular(alterar inteiro total, const inteiro valor): vazio {
+    total = total + valor
+}
+
+funcao area(const duplo raio): duplo {
+    retorne PI * potencia(raio, 2.0)
+}
+
+funcao inicio() {
+    const inteiro TAXA = 85
+    const inteiro notas[3] = {10, 15, 20}
+    inteiro soma = 0
+
+    para (inteiro i = 0; i < 3; i++) {
+        acumular(soma, notas[i])
+    }
+
+    estrutura Aluno a = {"Ana", 25}
+
+    escreva(a.nome, " tem ", a.idade, " anos\n")
+    escreva("soma = ", soma, "\n")
+    escreva("taxa em dobro = ", dobro(TAXA), "\n")
+    escreva("area = ", area(2.0), "\n")
+
+    se (soma > 40) {
+        escreva("aprovado\n")
+    } senao {
+        escreva("reprovado\n")
+}
+}

@@ -58,6 +58,19 @@
         "LICENCA.md",
         "teste12.por"
       ]
+    },
+    {
+      "id": "projeto2-testando-as-pastas",
+      "nome": "Projeto2 testando as pastas",
+      "descricao": "Testando as oastas",
+      "autor": "Adilson Rafael",
+      "licenca": "mit",
+      "pasta": "projetos/projeto2-testando-as-pastas",
+      "ficheiros": [
+        "LEIAME.md",
+        "LICENCA.md",
+        "ola.port"
+      ]
     }
   ]
 }
