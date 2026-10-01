@@ -71,6 +71,19 @@
         "LICENCA.md",
         "ola.port"
       ]
+    },
+    {
+      "id": "calculo",
+      "nome": "Calculo",
+      "descricao": "Descrição d testw",
+      "autor": "Adilson Rafael",
+      "licenca": "reservada",
+      "pasta": "projetos/calculo",
+      "ficheiros": [
+        "LEIAME.md",
+        "LICENCA.md",
+        "teste.por"
+      ]
     }
   ]
 }
