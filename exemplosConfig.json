@@ -43,6 +43,21 @@
         "LICENCA.md",
         "teste12.por"
       ]
+    },
+    {
+      "id": "testepastas2",
+      "nome": "TESTEpastas2",
+      "descricao": "Testes  pastas",
+      "autor": "Adilson Rafael",
+      "licenca": "mit",
+      "pasta": "projetos/testepastas2",
+      "ficheiros": [
+        "A/b/teste.port",
+        "A1/tr.port",
+        "LEIAME.md",
+        "LICENCA.md",
+        "teste12.por"
+      ]
     }
   ]
 }
