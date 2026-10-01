@@ -28,6 +28,21 @@
         "LICENCA.md",
         "ola.port"
       ]
+    },
+    {
+      "id": "testepastas",
+      "nome": "TESTEpastas",
+      "descricao": "Testando sistemas de pastas",
+      "autor": "Adilson Rafael",
+      "licenca": "reservada",
+      "pasta": "projetos/testepastas",
+      "ficheiros": [
+        "A/b/teste.port",
+        "A1/tr.port",
+        "LEIAME.md",
+        "LICENCA.md",
+        "teste12.por"
+      ]
     }
   ]
 }
