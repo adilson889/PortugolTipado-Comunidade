@@ -1,0 +1,20 @@
+{
+  "exemplos": [],
+  "docs": [],
+  "projetos": [
+    {
+      "id": "projetoteste",
+      "nome": "Projetoteste",
+      "descricao": "Projeto inicial de teste do ambiente",
+      "autor": "Adilson Rafael",
+      "licenca": "educativa",
+      "pasta": "projetos/projetoteste",
+      "ficheiros": [
+        "LEIAME.md",
+        "LICENCA.md",
+        "testando.port",
+        "teste12.por"
+      ]
+    }
+  ]
+}
