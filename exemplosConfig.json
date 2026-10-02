@@ -84,6 +84,21 @@
         "LICENCA.md",
         "teste.por"
       ]
+    },
+    {
+      "id": "aulasbbb",
+      "nome": "Aulasbbb",
+      "descricao": "AAAAAAAAAAAAA",
+      "autor": "adilson889",
+      "conta": "adilson889",
+      "licenca": "mit",
+      "publicado_em": "2026-10-02T08:29:16.132Z",
+      "pasta": "projetos/aulasbbb",
+      "ficheiros": [
+        "LEIAME.md",
+        "LICENCA.md",
+        "d.port"
+      ]
     }
   ]
 }
