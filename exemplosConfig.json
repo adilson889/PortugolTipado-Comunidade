@@ -26,18 +26,5 @@
         "principal.por"
       ]
     }
-  ],
-  "cursos": [
-    {
-      "id": "pensamento-algoritmico-e-logica-de-progr",
-      "titulo": "Pensamento Algorítmico e Lógica de Programação",
-      "descricao": "Entenda como estruturar passos lógicos para resolver qualquer problema no computador.",
-      "nivel": "Iniciante",
-      "minutos": 5,
-      "autor": "maurosousa",
-      "conta": "maurosousa",
-      "publicado_em": "2026-10-06T14:57:03.742Z",
-      "ficheiro": "cursos/pensamento-algoritmico-e-logica-de-progr.md"
-    }
   ]
 }
