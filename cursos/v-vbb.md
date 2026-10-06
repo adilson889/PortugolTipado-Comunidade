@@ -1,0 +1,10 @@
+Vggggggghhhhhhvc.   Ccccccccccgvv
+{
+  "versionCode": 6,
+  "versionName": "1.1.5",
+  "minimo": 4,
+  "apk": "https://github.com/adilson889/PortugolTipado/releases/download/v1.1.5/portugoltipado.apk",
+  "tamanho": 8200000,
+  "sha256": "",
+  "changelog": "changelog/v1.0.4.html"
+}
