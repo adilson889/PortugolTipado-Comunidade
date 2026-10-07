@@ -12,7 +12,7 @@
     {
       "id": "arquitetura-de-logica-fluxo-de-inventari",
       "titulo": "Arquitetura de Lógica: Fluxo de Inventário Persistente",
-      "descricao": "Guia passo a passo para estruturar a lógica de leitura, processamento e gravação de dados em ficheiro.",
+      "descricao": "Guia passo a passo para estruturar a lógica de leitura, processamento e gravação de dados em ficheiro.",XR.   
       "nivel": "Iniciante",
       "minutos": 8,
       "autor": "maurosousa",
@@ -24,11 +24,13 @@
     {
       "id": "treino-de-logica",
       "nome": "Treino de Lógica",
-      "descricao": "Oito exercícios de lógica de programação para iniciantes, só em texto.",
+      "descricao": "Oito exercícios de lógica de programação para iniciantes, só em texto.",l
       "autor": "adilson889",
       "conta": "adilson889",
-      "licenca": "mit",
-      "publicado_em": "2026-10-04T21:36:31.016Z",
+      "licenca": "mit"/
+
+      "publicado_em":
+cd "2026-10-04T21:36:31.016Z",
       "pasta": "projetos/treino-de-logica",
       "ficheiros": [
         "LEIAME.md",
