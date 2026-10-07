@@ -35,6 +35,21 @@
         "LICENCA.md",
         "principal.por"
       ]
+    },
+    {
+      "id": "conversor-metete-calculadora-de-financas",
+      "nome": "Conversor Metete - Calculadora de Finanças Pessoais",
+      "descricao": "Um utilitário simples para calcular orçamentos, converter valores e analisar gastos diários com validação de dados.",
+      "autor": "adilson889",
+      "conta": "adilson889",
+      "licenca": "educativa",
+      "publicado_em": "2026-10-07T10:34:36.342Z",
+      "pasta": "projetos/conversor-metete-calculadora-de-financas",
+      "ficheiros": [
+        "LEIAME.md",
+        "LICENCA.md",
+        "arquivo.port"
+      ]
     }
   ]
 }

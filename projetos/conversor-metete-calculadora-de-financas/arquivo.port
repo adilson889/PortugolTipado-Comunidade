@@ -1,0 +1,66 @@
+
+// ============================================================================
+
+// 1. PONTO DE ENTRADA DO PROGRAMA
+
+funcao inicio()
+{
+    // 2. DECLARACAO E INICIALIZACAO DE VARIAVEIS
+    // Criamos as variaveis reservando espaco na memoria e definindo
+    // explicitamente o TIPO e o VALOR INICIAL de cada uma.
+    texto nome = ""                 // Guarda a cadeia de texto com o nome do utilizador
+    real orcamento_total = 0.0      // Guarda o valor total disponivel em decimais (AOA)
+    real gasto_diario = 0.0         // Guarda o valor diario calculado em decimais
+    inteiro dias = 0                // Guarda o numero inteiro de dias do planejamento
+
+    // 3. APRESENTACAO E LEITURA DE DADOS
+    // A funcao escreva() exibe mensagens no terminal ("\n" salta uma linha).
+    // A funcao leia() pausa a execucao e guarda o texto introduzido pelo utilizador.
+    escreva("--- BEM-VINDO AO CONVERSOR METETE ---\n")
+    escreva("Qual é o teu nome? ")
+    leia(nome)
+
+    // 4. CAPTURA DO ORCAMENTO E DA DURACAO
+    // Interpolamos a variavel 'nome' na saudacao e lemos os dados numericos.
+    escreva("Olá, ", nome, "! Digita o teu orçamento total (AOA): ")
+    leia(orcamento_total)
+
+    escreva("Quantos dias pretendes planejar? ")
+    leia(dias)
+
+    // 5. VALIDACAO DE DADOS (TRATAMENTO DE ERROS)
+    // Verificamos se o utilizador digitou 0 ou um numero negativo de dias.
+    // Como a divisao por zero nao existe e causa erro, encerramos a funcao se 'dias <= 0'.
+    se (dias <= 0)
+    {
+        escreva("Erro: O número de dias deve ser maior que zero.\n")
+        retorne // O comando 'retorne' encerra imediatamente a funcao inicio()
+    }
+
+    // 6. PROCESSAMENTO / CALCULO MATEMATICO
+    // Dividimos o orcamento total pelos dias para obter o limite diario recomendado.
+    gasto_diario = orcamento_total / dias
+
+    // 7. EXIBICAO DO RESUMO DO PLANEJAMENTO
+    // Imprimimos um relatorio organizado misturando texto estatico e variaveis por virgula.
+    escreva("\n--- RESUMO DO PLANEJAMENTO ---\n")
+    escreva("Utilizador: ", nome, "\n")
+    escreva("Orçamento Total: ", orcamento_total, " AOA\n")
+    escreva("Duração: ", dias, " dias\n")
+    escreva("Limite diário recomendado: ", gasto_diario, " AOA/dia\n")
+
+    // 8. ANALISE CONDICIONAL DO RESULTADO
+    // Tomamos uma decisao com base no valor calculado:
+    // Se o gasto diario for menor que 2000.0 AOA, exibimos um alerta.
+    // Caso contrario (senao), informamos que a situacao esta confortavel.
+    se (gasto_diario < 2000.0) 
+    {
+        escreva("Aviso: O teu limite diário é baixo. Planeja as despesas com cuidado!\n")
+    } senao
+    {
+        escreva("Situação confortável para o período estipulado.\n")
+    }
+
+// 9. FECHO DO BLOCO
+// A chave a fechar assinala o fim da funcao inicio() e o encerramento do programa.
+}
